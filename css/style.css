@@ -1,0 +1,55 @@
+:root{
+    --left-space: 48px;
+}
+body {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+.content {
+    min-height: 100vh;
+    display: flex;
+}
+ @font-face {
+    font-family:"Norse Bold";
+    src: url("/Assets/Norse-Bold.otf");
+ }
+ /* image*/
+ .img-section {
+    background-position: center center;
+    background-image: url("/Assets/img/archana-reddy-t6DKqQLpafk-unsplash.jpg");
+    flex: 3;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+ }
+ a {
+    color:white;
+ }
+ .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    font-size: "Norse Bold";
+    padding: 16px 0;
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.4);
+ }
+ .banner img {
+     height: 120px;
+ }
+ .banner h2 {
+    margin: 0;
+ }
+ .attribution {
+    font-size: 0.9rem;
+ }
+ /* Text Section */
+
+ .text-section{
+    
+ }
